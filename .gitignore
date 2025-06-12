@@ -1,0 +1,15 @@
+# Ignora arquivos .py que começam com número
+[0-9]*.py
+
+# Ignora arquivos específicos
+main.py
+prova1.py
+prova2.py
+prova3.py
+
+# Pastas a serem ignoradas (ex: PyCharm e cache)
+.idea/
+__pycache__/
+*.pyc
+*.pyo
+*.log
